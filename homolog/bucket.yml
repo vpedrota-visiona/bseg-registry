@@ -1,6 +1,6 @@
 flows:
-  d358c153-8cdb-48cb-ae57-376cd2202e04: {ver: 1, file: preseguro-pipeline.snapshot,
-    comments: '', author: anonymous, created: 1674839165626, flowName: preseguro-pipeline,
-    flowDesc: ''}
+  d358c153-8cdb-48cb-ae57-376cd2202e04: {ver: 2, file: preseguro-pipeline.snapshot,
+    comments: ajustando processadores no ambiente de homologação, author: anonymous,
+    created: 1674839313246, flowName: preseguro-pipeline, flowDesc: ''}
 layoutVer: 1
 bucketId: 0d865fe6-d9aa-4e54-9cd6-1c1e554af61f

@@ -5867,7 +5867,7 @@
           "penaltyDuration" : "0 sec",
           "position" : {
             "x" : -1624.0,
-            "y" : -216.0
+            "y" : -256.0
           },
           "properties" : {
             "argumentsStrategy" : "Command Arguments Property",
