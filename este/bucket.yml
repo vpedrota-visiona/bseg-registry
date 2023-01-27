@@ -1,6 +1,6 @@
 flows:
-  710457ae-6c80-495f-a179-6bb590912357: {ver: 1, file: b.snapshot, comments: '', author: anonymous,
-    created: 1674819380620, flowName: b, flowDesc: ''}
+  710457ae-6c80-495f-a179-6bb590912357: {ver: 2, file: b.snapshot, comments: '', author: anonymous,
+    created: 1674819420706, flowName: b, flowDesc: ''}
   fc1f8e05-8887-4924-ab13-d664bb1b4f40:
     ver: 3
     file: a.snapshot
