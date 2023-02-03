@@ -866,10 +866,7 @@
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
           "backPressureObjectThreshold" : 10000,
-          "bends" : [ {
-            "x" : -2128.0,
-            "y" : -280.0
-          } ],
+          "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
@@ -883,7 +880,7 @@
           "groupIdentifier" : "b75673d9-b969-3175-82a5-aa648d8e4f7c",
           "identifier" : "ad0306fe-690d-31ba-bef0-be13bea63830",
           "instanceIdentifier" : "70f81bd8-65b4-3343-9dec-37b5a3909d23",
-          "labelIndex" : 1,
+          "labelIndex" : 0,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
           "name" : "",
@@ -3542,7 +3539,7 @@
             "Working Directory" : "/bseg-nifi",
             "Argument Delimiter" : ";",
             "Ignore STDIN" : "false",
-            "Command Arguments" : "/bseg-nifi/filtro_healthcheck.py"
+            "Command Arguments" : "/bseg-nifi/filtro_healthcheck.py; dev"
           },
           "propertyDescriptors" : {
             "argumentsStrategy" : {
@@ -4168,7 +4165,7 @@
             "Working Directory" : "/bseg-nifi/",
             "Argument Delimiter" : ";",
             "Ignore STDIN" : "false",
-            "Command Arguments" : "/bseg-nifi/resposta_001.py; ${simulacao.id}; ${simulacao.municipio.cep}; ${simulacao.area_total}; ${healthcheck}"
+            "Command Arguments" : "/bseg-nifi/resposta_001.py; ${simulacao.id}; ${simulacao.municipio.cep}; ${simulacao.area_total}; ${healthcheck}; dev"
           },
           "propertyDescriptors" : {
             "argumentsStrategy" : {
@@ -5866,7 +5863,7 @@
             "Working Directory" : "/bseg-nifi/",
             "Argument Delimiter" : ";",
             "Ignore STDIN" : "false",
-            "Command Arguments" : "/bseg-nifi/filtro.py; "
+            "Command Arguments" : "/bseg-nifi/filtro.py; dev"
           },
           "propertyDescriptors" : {
             "argumentsStrategy" : {
