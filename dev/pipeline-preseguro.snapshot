@@ -3538,10 +3538,11 @@
           "properties" : {
             "argumentsStrategy" : "Command Arguments Property",
             "Max Attribute Length" : "256",
-            "Command Path" : "/usr/bin/python3",
+            "Command Path" : "python3",
+            "Working Directory" : "/bseg-nifi",
             "Argument Delimiter" : ";",
             "Ignore STDIN" : "false",
-            "Command Arguments" : "/app/filtro_healthcheck.py"
+            "Command Arguments" : "/bseg-nifi/filtro_healthcheck.py"
           },
           "propertyDescriptors" : {
             "argumentsStrategy" : {
@@ -3894,11 +3895,11 @@
           "properties" : {
             "argumentsStrategy" : "Command Arguments Property",
             "Max Attribute Length" : "256",
-            "Command Path" : "/usr/bin/python3",
-            "Working Directory" : "/app/",
+            "Command Path" : "python3",
+            "Working Directory" : "/bseg-nifi/",
             "Argument Delimiter" : ";",
             "Ignore STDIN" : "false",
-            "Command Arguments" : "/app/req_pre_falha_001.py; ${simulacao.id};"
+            "Command Arguments" : "/bseg-nifi/req_pre_falha_001.py; ${simulacao.id};"
           },
           "propertyDescriptors" : {
             "argumentsStrategy" : {
@@ -4163,11 +4164,11 @@
           "properties" : {
             "argumentsStrategy" : "Command Arguments Property",
             "Max Attribute Length" : "256",
-            "Command Path" : "/usr/bin/python3",
-            "Working Directory" : "/app/",
+            "Command Path" : "python3",
+            "Working Directory" : "/bseg-nifi/",
             "Argument Delimiter" : ";",
             "Ignore STDIN" : "false",
-            "Command Arguments" : "/app/resposta_001.py; ${simulacao.id}; ${simulacao.municipio.cep}; ${simulacao.area_total}; ${healthcheck}"
+            "Command Arguments" : "/bseg-nifi/resposta_001.py; ${simulacao.id}; ${simulacao.municipio.cep}; ${simulacao.area_total}; ${healthcheck}"
           },
           "propertyDescriptors" : {
             "argumentsStrategy" : {
@@ -4255,10 +4256,10 @@
             "argumentsStrategy" : "Command Arguments Property",
             "Max Attribute Length" : "256",
             "Command Path" : "/usr/bin/python3",
-            "Working Directory" : "/app/",
+            "Working Directory" : "/bseg-nifi/",
             "Argument Delimiter" : ";",
             "Ignore STDIN" : "false",
-            "Command Arguments" : "/app/leitura_data_asg.py"
+            "Command Arguments" : "/bseg-nifi/leitura_data_asg.py"
           },
           "propertyDescriptors" : {
             "argumentsStrategy" : {
@@ -5392,11 +5393,11 @@
           "properties" : {
             "argumentsStrategy" : "Command Arguments Property",
             "Max Attribute Length" : "256",
-            "Command Path" : "/usr/bin/python3",
-            "Working Directory" : "/app/",
+            "Command Path" : "python3",
+            "Working Directory" : "/bseg-nifi/",
             "Argument Delimiter" : ";",
             "Ignore STDIN" : "false",
-            "Command Arguments" : "/app/return_health_check_json.py"
+            "Command Arguments" : "/bseg-nifi/return_health_check_json.py"
           },
           "propertyDescriptors" : {
             "argumentsStrategy" : {
@@ -5861,11 +5862,11 @@
           "properties" : {
             "argumentsStrategy" : "Command Arguments Property",
             "Max Attribute Length" : "256",
-            "Command Path" : "/usr/bin/python3",
-            "Working Directory" : "/app/",
+            "Command Path" : "python3",
+            "Working Directory" : "/bseg-nifi/",
             "Argument Delimiter" : ";",
             "Ignore STDIN" : "false",
-            "Command Arguments" : "/bseg-nifi/filtro.py"
+            "Command Arguments" : "/bseg-nifi/filtro.py; "
           },
           "propertyDescriptors" : {
             "argumentsStrategy" : {

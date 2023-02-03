@@ -1,6 +1,6 @@
 flows:
-  c954991c-67ea-4493-9fe4-af6060eb4080: {ver: 2, file: pipeline-preseguro.snapshot,
-    comments: Inserindo geomtrias no banco e novas mensagens de erro, author: anonymous,
-    created: 1675343583215, flowName: pipeline-preseguro, flowDesc: ''}
+  c954991c-67ea-4493-9fe4-af6060eb4080: {ver: 3, file: pipeline-preseguro.snapshot,
+    comments: Ajustanto scripts dos processadores, author: anonymous, created: 1675423571760,
+    flowName: pipeline-preseguro, flowDesc: ''}
 layoutVer: 1
 bucketId: f07e8c49-0d47-4b09-aae1-3fb0dceb570c
